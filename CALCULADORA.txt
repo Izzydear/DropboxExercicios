@@ -1,0 +1,38 @@
+Algoritmo "Calculadora"
+// Função :
+// Autor :
+// Data : 03/01/2021
+// Seção de Declarações
+
+Var
+
+opc: inteiro
+n1,n2: real
+
+Inicio
+    escreva("Informe o primeiro número: ")
+    leia(n1)
+    escreva("Informe o segundo número: ")
+    leia(n2)
+    escreval("Informe a operação desejada")
+    escreval("1-somar 2-subtrair 3-mutliplicação 4-divisão")
+    leia(opc)
+    se(opc = 1)entao
+       escreva("A soma dos números eh: ",n1+n2)
+    fimse
+    se(opc = 2)entao
+       escreva("A subtração dos números eh: ",n1-n2)
+    fimse
+    se(opc = 3)entao
+       escreva("A mutiplicação dos números eh: ",n1*n2)
+    fimse
+    se(opc = 4)entao
+        se(n2 = 0)entao
+          escreva("Não exite divisão por zero")
+        fimse
+        se(n2>0)entao
+           escreva("A divisão dos números eh: ",n1/n2)
+        fimse
+    fimse
+    
+Fimalgoritmo
